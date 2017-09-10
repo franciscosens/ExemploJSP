@@ -1,0 +1,55 @@
+.texto-esquerda {
+    text-align: left;
+}
+
+.texto-centro {
+    text-align: center;
+}
+
+.texto-direita {
+    text-align: right;
+}
+
+.titulo {
+    text-align: center;
+    color: darkmagenta;
+}
+
+.novo-direita {
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    right: 15%;
+    top: 59px;
+}
+
+.novo-direita a {
+    text-decoration: none;
+    background-color: #622569;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.novo-direita a:hover {
+    background-color: slateblue;
+    font-weight: bold;
+    color: white;
+}
+
+.icone-editar{
+    color: #195a7e;
+}
+
+.icon-excluir{
+    color: #bc2117;
+}
+
+a i{
+    padding-right: 8px;
+    cursor: pointer;
+}

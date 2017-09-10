@@ -1,0 +1,15 @@
+th.coluna-codigo {
+    width: 15%;
+}
+
+th.coluna-nome {
+    width: 50%;
+}
+
+th.coluna-cnpj {
+    width: 25%;
+}
+
+th.coluna-acao {
+    width: 10%;
+}

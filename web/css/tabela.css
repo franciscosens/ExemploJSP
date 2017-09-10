@@ -1,0 +1,36 @@
+.div-lista {
+    display: block;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    clear: both;
+}
+
+table {
+    width: 100%;
+}
+
+thead tr, tfoot tr {
+    height: 45px;
+    font-size: 19px;
+    background-color: darkmagenta;
+    color: white;
+}
+
+tr {
+    height: 40px;
+    background-color: wheat;
+    font-size: 18px;
+}
+
+td{
+    padding-left: 10px;
+}
+
+table tr:nth-child(odd) td {
+    background-color: #eeeeee;
+}
+
+table tr:nth-child(even) td {
+    background-color: darkgrey;
+}
